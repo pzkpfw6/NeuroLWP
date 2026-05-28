@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="cardview_light_background">#ffffffff</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="kustom_dashboard_dark_accent">#ffff48cb</color>
+    <color name="kustom_dashboard_dark_background">#ff333333</color>
+    <color name="kustom_dashboard_dark_primary">#ff444444</color>
+    <color name="kustom_dashboard_dark_primary_dark">#ff222222</color>
+    <color name="kustom_dashboard_dark_primary_light">#ff606060</color>
+    <color name="kustom_dashboard_dark_primary_text">#fff0f0f0</color>
+    <color name="kustom_dashboard_dark_primary_text_inverted">#ff303030</color>
+    <color name="kustom_dashboard_dark_secondary_text">#ffd0d0d0</color>
+    <color name="kustom_dashboard_dark_secondary_text_inverted">#ff505050</color>
+    <color name="kustom_dashboard_dark_tertiary_text">#aad0d0d0</color>
+    <color name="kustom_dashboard_light_accent">#fffff000</color>
+    <color name="kustom_dashboard_light_background">#ffefefef</color>
+    <color name="kustom_dashboard_light_primary">#ffe0e0e0</color>
+    <color name="kustom_dashboard_light_primary_dark">#ffc0c0c0</color>
+    <color name="kustom_dashboard_light_primary_light">#ffffffff</color>
+    <color name="kustom_dashboard_light_primary_text">#ff303030</color>
+    <color name="kustom_dashboard_light_primary_text_inverted">#fff0f0f0</color>
+    <color name="kustom_dashboard_light_secondary_text">#ff505050</color>
+    <color name="kustom_dashboard_light_secondary_text_inverted">#ffd0d0d0</color>
+    <color name="kustom_dashboard_light_tertiary_text">#99505050</color>
+    <color name="kustom_translucent_background">#66000000</color>
+    <color name="kustom_translucent_background_text_primary">#ffffffff</color>
+    <color name="kustom_translucent_background_text_secondary">#ffeeeeee</color>
+    <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="psts_background_tab_pressed">#1affffff</color>
+    <color name="psts_background_tab_pressed_ripple">#aaffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+</resources>

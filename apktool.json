@@ -1,0 +1,32 @@
+{
+  "apkFileName": "neurolwp_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "assets/wallpapers/Neuro_LWP_1.8.klwp",
+    "png"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-251224",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "v1.8",
+    "versionCode": "2614786"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {},
+  "apkFilePath": "/storage/emulated/0/Download/neurolwp.apk",
+  "compactEntries": false,
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "29"
+  }
+}

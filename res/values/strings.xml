@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NeuroLWP</string>
+    <string name="apply">Apply</string>
+    <string name="compact">Compact</string>
+    <string name="define_fastadapter">year;owner</string>
+    <string name="hide_from_launcher">Hide From Launcher</string>
+    <string name="hide_from_launcher_done">App has been hidden from launcher and will not show up on the drawer from next restart, you can off course still access it from Kustom. If you want the app back on your Launcher please reinstall it.</string>
+    <string name="info">Info</string>
+    <string name="install">Install</string>
+    <string name="komponent_open">In order to add a Komponent open Kustom and press + on the editor ToolBar, then select Komponent and find this pack</string>
+    <string name="kustom_dashboard_title">@string/kustom_pack_title</string>
+    <string name="kustom_dashboard_walls_url" />
+    <string name="kustom_not_installed">App not installed</string>
+    <string name="kustom_not_installed_desc">In order to use this preset you will need Kustom installed with PRO license unless this is a featured free theme</string>
+    <string name="kustom_pack_description">Let Neuro-sama and Evil Neuro help you around your phone!</string>
+    <string name="kustom_pack_title">NeuroLWP</string>
+    <string name="library_fastadapter_author">Mike Penz</string>
+    <string name="library_fastadapter_authorWebsite">http://mikepenz.com/</string>
+    <string name="library_fastadapter_isOpenSource">true</string>
+    <string name="library_fastadapter_libraryDescription">&lt;b>FastAdapter&lt;/b>, the bullet proof, fast and easy to use adapter library, which minimizes developing time to a fraction...</string>
+    <string name="library_fastadapter_libraryName">FastAdapter</string>
+    <string name="library_fastadapter_libraryVersion">3.0.4</string>
+    <string name="library_fastadapter_libraryWebsite">https://github.com/mikepenz/FastAdapter</string>
+    <string name="library_fastadapter_licenseId">apache_2_0</string>
+    <string name="library_fastadapter_owner">Mike Penz</string>
+    <string name="library_fastadapter_repositoryLink">https://github.com/mikepenz/FastAdapter</string>
+    <string name="library_fastadapter_year">2017</string>
+    <string name="no_results">No results</string>
+    <string name="rate_app">Rate App</string>
+    <string name="save">Download</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

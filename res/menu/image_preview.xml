@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item
+        n1:icon="@drawable/ic_save"
+        n1:id="@id/menu_save"
+        n1:title="@string/save"
+        n1:showAsAction="always"
+        xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item
+        n2:icon="@drawable/ic_check"
+        n2:id="@id/menu_apply"
+        n2:title="@string/apply"
+        n2:showAsAction="always"
+        xmlns:n2="http://schemas.android.com/apk/res/android" />
+</menu>

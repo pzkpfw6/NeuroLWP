@@ -1,0 +1,153 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/notification_action.xml
+SHA1-Digest: WQxdADfygewSpon3yvwt55bb+/s=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal.9.png
+SHA1-Digest: j66Eu60yXsTt2+rWG7/Bbt3KErg=
+
+Name: res/layout/notification_template_icon_group.xml
+SHA1-Digest: zd+0sBABHLJ+tjT8qqOp5UPxRag=
+
+Name: res/drawable/notification_bg.xml
+SHA1-Digest: 1E1VBbvbZw7lDxRgT7Q07bJji2w=
+
+Name: res/layout/notification_template_custom_big.xml
+SHA1-Digest: ZJ8BvxtFEhJX/3Ibm+PNk/sT/ao=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+SHA1-Digest: bcGROFguSllVLTSUpbQeY5V6A54=
+
+Name: res/drawable/notification_action_background.xml
+SHA1-Digest: cz+gG38SR0Wz6KcUCKtj4lZE+Is=
+
+Name: res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png
+SHA1-Digest: cz2cTpSbxUR34pkCMo3M7a+mSXk=
+
+Name: res/drawable/notification_bg_low.xml
+SHA1-Digest: eFiD7XXj12vNwniY5EVxtDUPhis=
+
+Name: res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+SHA1-Digest: WuL2/toxWwVCkWEMRxb1EQOyMhA=
+
+Name: res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+SHA1-Digest: X/lHyqy/i66+Lvhw/RlUttGZCjY=
+
+Name: res/drawable/ic_save.xml
+SHA1-Digest: ++9iHVY+nL5cqxkKccy9p7Ty9H4=
+
+Name: res/menu/dashboard.xml
+SHA1-Digest: TKZ26yB4izpPDt59PlJ1l4ArwjQ=
+
+Name: res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+SHA1-Digest: TZoq5fn2jjj23LAmyukLzy8TVPA=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA1-Digest: Fkl9Dpve+4bRHuSIPjNg5fEcNeA=
+
+Name: res/layout/notification_template_part_time.xml
+SHA1-Digest: wiC3vCgkrMjs+5N/fGZ0X+69RVs=
+
+Name: assets/wallpapers/Neuro_LWP_1.8.klwp
+SHA1-Digest: ivABRKw2L7e81lOoxHBqC9MXsdA=
+
+Name: res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+SHA1-Digest: brlMet9T126SG7tLyf7uBXl9NeU=
+
+Name: res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
+SHA1-Digest: inKyhhyZgO65645KR/OH06l6dAc=
+
+Name: resources.arsc
+SHA1-Digest: ehJlcTHY6pj6cVS22LaMZzI6c6Q=
+
+Name: res/layout/kustom_dashboard_list_item_widget.xml
+SHA1-Digest: 0bhTccDShZ54WEMyLsOJE9VuO+c=
+
+Name: res/layout/psts_tab.xml
+SHA1-Digest: zwbcHBL38Fy9RZ/Tj1w4FVOdCWw=
+
+Name: AndroidManifest.xml
+SHA1-Digest: jpl39uNwp7WTKhuT+1u43/a176o=
+
+Name: res/layout/kustom_dashboard_dialog.xml
+SHA1-Digest: q87aw7tHeAHd5hD8MsDEshLFnns=
+
+Name: res/drawable-mdpi-v4/notification_bg_normal.9.png
+SHA1-Digest: ZmUYoZRjV5S78oUGJgKjRsWijjs=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: dNxXcq1I82PJ8amI03hnGnECVCY=
+
+Name: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+SHA1-Digest: XRK+0qTSsEHgbRKmsFa87e2SI/4=
+
+Name: res/layout/kustom_image_preview_activity.xml
+SHA1-Digest: OXuzUCPsc2B81zZYqU90fQGU2Nc=
+
+Name: res/drawable/notification_tile_bg.xml
+SHA1-Digest: DBVosrb8bl9yHgJUcE+pHBmUrJ4=
+
+Name: res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+SHA1-Digest: kk7ZIosN3+pslvIcX8e6jJgtitw=
+
+Name: res/drawable/ic_check.xml
+SHA1-Digest: /YHAmwd/btaeY6Ba6AZJBUVLfvI=
+
+Name: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+SHA1-Digest: cuJ+cwlm5QO6frAFAjbS9w6zhJ4=
+
+Name: res/layout/kustom_dashboard_list_item_preview.xml
+SHA1-Digest: DMFzdqviJE5eX9YG8+l8fBiAph4=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: MwlW/aUeAwwJrj50z2LfN+zb8c8=
+
+Name: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+SHA1-Digest: 0ugTUuZHAnkDPHn8gE19ZKsgmZw=
+
+Name: res/layout/kustom_dashboard_page.xml
+SHA1-Digest: HsqGuxIsGe9Q3HELDLihyY3FDLw=
+
+Name: res/layout/notification_action_tombstone.xml
+SHA1-Digest: gWkLV2mMHryzSnu4eMXqYtGuQ/A=
+
+Name: res/layout/kustom_dashboard_activity.xml
+SHA1-Digest: M5nsBb2Mdquw0Qkx1McuE+lO85A=
+
+Name: res/drawable/ic_carousel.xml
+SHA1-Digest: EwxRWFFfpmj0eGvKrXk87jHNiP8=
+
+Name: res/drawable/psts_background_tab.xml
+SHA1-Digest: jvjQ6O7nqL/wNS3sE+q4hZ/sP4M=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: Ed1bA5NvugvyURFkY/nUkWjFpeE=
+
+Name: res/menu/image_preview.xml
+SHA1-Digest: mFBxg4dRdmHyaihVDZuMrGN5pM4=
+
+Name: res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+SHA1-Digest: EU8fWX1eKN47RKlWWD9QqF/AGSQ=
+
+Name: res/layout/kustom_dashboard_list_item_wallpaper.xml
+SHA1-Digest: K0gvwGGS9Rx8gN7fvhuwco1P9ns=
+
+Name: res/drawable/notification_icon_background.xml
+SHA1-Digest: /jE7plz5Am7qp/qXsgPZBl6NVQo=
+
+Name: classes.dex
+SHA1-Digest: MfSToXa/c5pzwLdLnRRR7hMpO8w=
+
+Name: res/drawable/ic_info.xml
+SHA1-Digest: aPjeCXqTm9CRRwWTU/xIFV4Ihdc=
+
+Name: res/layout/kustom_dashboard_list_item_info.xml
+SHA1-Digest: +xaVVCmPut3np9qvAs9B1+CsBo8=
+
+Name: res/drawable-hdpi-v4/notification_bg_normal.9.png
+SHA1-Digest: e39HWYSRdaO+/NhxvCOzRk3gTPg=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: LLGHFFuyE54E2jfMZZWCdvmi58U=
+

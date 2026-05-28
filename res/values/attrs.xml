@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="aspectRatio" format="float" />
+    <attr name="aspectRatioEnabled" format="boolean" />
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="contentPadding" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="dominantMeasurement">
+        <enum name="height" value="1" />
+        <enum name="width" value="0" />
+    </attr>
+    <attr name="fastScrollEnabled" format="boolean" />
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
+    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
+    <attr name="font" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontWeight" format="integer" />
+    <attr name="layoutManager" format="string" />
+    <attr name="pstsDividerColor" format="color" />
+    <attr name="pstsDividerPadding" format="dimension" />
+    <attr name="pstsDividerWidth" format="dimension" />
+    <attr name="pstsIndicatorColor" format="color" />
+    <attr name="pstsIndicatorHeight" format="dimension" />
+    <attr name="pstsPaddingMiddle" format="boolean" />
+    <attr name="pstsScrollOffset" format="dimension" />
+    <attr name="pstsShouldExpand" format="boolean" />
+    <attr name="pstsTabBackground" format="reference" />
+    <attr name="pstsTabPaddingLeftRight" format="dimension" />
+    <attr name="pstsTabTextAllCaps" format="boolean" />
+    <attr name="pstsTabTextAlpha" format="integer" />
+    <attr name="pstsTabTextColor" format="reference" />
+    <attr name="pstsTabTextFontFamily" format="string" />
+    <attr name="pstsTabTextSize" format="dimension" />
+    <attr name="pstsTabTextStyle" format="reference">
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+        <flag name="normal" value="0x00000000" />
+    </attr>
+    <attr name="pstsUnderlineColor" format="color" />
+    <attr name="pstsUnderlineHeight" format="dimension" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="spanCount" format="integer" />
+    <attr name="stackFromEnd" format="boolean" />
+</resources>

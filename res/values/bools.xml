@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="kustom_dashboard_adaptive_item_color">true</bool>
+    <bool name="kustom_dashboard_compact_view">false</bool>
+    <bool name="kustom_dashboard_light_theme">false</bool>
+    <bool name="kustom_dashboard_walls">false</bool>
+    <bool name="kustom_dashboard_walls_download">true</bool>
+</resources>
