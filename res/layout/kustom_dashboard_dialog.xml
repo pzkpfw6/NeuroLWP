@@ -1,66 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    n1:orientation="vertical"
-    n1:paddingLeft="32.0dip"
-    n1:paddingTop="24.0dip"
-    n1:paddingRight="32.0dip"
-    n1:paddingBottom="16.0dip"
-    n1:layout_width="wrap_content"
-    n1:layout_height="wrap_content"
-    n1:minWidth="320.0dip"
-    xmlns:n1="http://schemas.android.com/apk/res/android">
-    <TextView
-        n1:textAppearance="@android:style/TextAppearance.Large"
-        n1:textColor="?android:textColorPrimary"
-        n1:ellipsize="marquee"
-        n1:layout_gravity="left"
-        n1:id="@id/title"
-        n1:paddingBottom="16.0dip"
-        n1:fadingEdge="horizontal"
-        n1:layout_width="wrap_content"
-        n1:layout_height="wrap_content"
-        n1:singleLine="true" />
-    <TextView
-        n1:textAppearance="@android:style/TextAppearance.Small"
-        n1:textColor="?android:textColorSecondary"
-        n1:ellipsize="marquee"
-        n1:layout_gravity="left"
-        n1:id="@id/content"
-        n1:paddingBottom="32.0dip"
-        n1:fadingEdge="horizontal"
-        n1:layout_width="fill_parent"
-        n1:layout_height="wrap_content" />
-    <Button
-        n1:textColor="?android:colorAccent"
-        n1:ellipsize="marquee"
-        n1:gravity="right"
-        n1:layout_gravity="right"
-        n1:id="@id/button_positive"
-        n1:fadingEdge="horizontal"
-        n1:layout_width="wrap_content"
-        n1:layout_height="wrap_content"
-        n1:singleLine="true"
-        style="@android:style/Widget.Material.Button.Borderless.Colored" />
-    <Button
-        n1:textColor="?android:colorAccent"
-        n1:ellipsize="marquee"
-        n1:gravity="right"
-        n1:layout_gravity="right"
-        n1:id="@id/button_neutral"
-        n1:fadingEdge="horizontal"
-        n1:layout_width="wrap_content"
-        n1:layout_height="wrap_content"
-        n1:singleLine="true"
-        style="@android:style/Widget.Material.Button.Borderless.Colored" />
-    <Button
-        n1:textColor="?android:colorAccent"
-        n1:ellipsize="marquee"
-        n1:gravity="right"
-        n1:layout_gravity="right"
-        n1:id="@id/button_negative"
-        n1:fadingEdge="horizontal"
-        n1:layout_width="wrap_content"
-        n1:layout_height="wrap_content"
-        n1:singleLine="true"
-        style="@android:style/Widget.Material.Button.Borderless.Colored" />
+<LinearLayout n1:orientation="vertical" n1:paddingLeft="32.0dp" n1:paddingTop="24.0dp" n1:paddingRight="32.0dp" n1:paddingBottom="16.0dp" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="320.0dp"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textAppearance="@android:style/TextAppearance.Large" n1:textColor="?android:textColorPrimary" n1:ellipsize="marquee" n1:layout_gravity="left" n1:id="@id/title" n1:paddingBottom="16.0dp" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" />
+    <TextView n1:textAppearance="@android:style/TextAppearance.Small" n1:textColor="?android:textColorSecondary" n1:ellipsize="marquee" n1:layout_gravity="left" n1:id="@id/content" n1:paddingBottom="32.0dp" n1:fadingEdge="horizontal" n1:layout_width="match_parent" n1:layout_height="wrap_content" />
+    <Button n1:textColor="?android:colorAccent" n1:ellipsize="marquee" n1:gravity="right" n1:layout_gravity="right" n1:id="@id/button_positive" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" style="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <Button n1:textColor="?android:colorAccent" n1:ellipsize="marquee" n1:gravity="right" n1:layout_gravity="right" n1:id="@id/button_neutral" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" style="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <Button n1:textColor="?android:colorAccent" n1:ellipsize="marquee" n1:gravity="right" n1:layout_gravity="right" n1:id="@id/button_negative" n1:fadingEdge="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" style="@android:style/Widget.Material.Button.Borderless.Colored" />
 </LinearLayout>

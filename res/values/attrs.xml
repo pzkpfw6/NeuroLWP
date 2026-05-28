@@ -56,9 +56,9 @@
     <attr name="pstsTabTextFontFamily" format="string" />
     <attr name="pstsTabTextSize" format="dimension" />
     <attr name="pstsTabTextStyle" format="reference">
-        <flag name="bold" value="0x00000001" />
-        <flag name="italic" value="0x00000002" />
-        <flag name="normal" value="0x00000000" />
+        <flag name="bold" value="0x1" />
+        <flag name="italic" value="0x2" />
+        <flag name="normal" value="0x0" />
     </attr>
     <attr name="pstsUnderlineColor" format="color" />
     <attr name="pstsUnderlineHeight" format="dimension" />

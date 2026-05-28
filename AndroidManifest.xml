@@ -1,52 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    package="nikka.neurolwp.project"
-    platformBuildVersionCode="25"
-    platformBuildVersionName="7.1.1"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Allows the app to create network sockets and use custom network protocols. The browser and other applications provide means to send data to the internet, so this permission is not required to send data to the internet. -->
-    <uses-permission
-        android:name="android.permission.INTERNET" />
-    <!-- Allows the app to view information about network connections such as which networks exist and are connected. -->
-    <uses-permission
-        android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- Allows the app to set the system wallpaper. -->
-    <uses-permission
-        android:name="android.permission.SET_WALLPAPER" />
-    <!-- Allows the app to set the system wallpaper size hints. -->
-    <uses-permission
-        android:name="android.permission.SET_WALLPAPER_HINTS" />
-    <!-- Allows the app to write the contents of your shared storage. -->
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <application
-        android:label="@string/kustom_dashboard_title"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon=" @mipmap/ic_launcher_round" 
-        android:allowBackup="false">
-        <provider
-            android:name="org.kustom.api.Provider"
-            android:exported="true"
-            android:authorities="nikka.neurolwp.project.kustom.provider">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="nikka.neurolwp.project" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="false" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="@string/kustom_dashboard_title" android:roundIcon="@mipmap/ic_launcher_round">
+        <provider android:authorities="nikka.neurolwp.project.kustom.provider" android:exported="true" android:name="org.kustom.api.Provider">
             <intent-filter>
-                <action
-                    android:name="org.kustom.provider.WALLPAPERS" />
+                <action android:name="org.kustom.provider.WALLPAPERS"/>
             </intent-filter>
         </provider>
-        <activity
-            android:label="@string/kustom_dashboard_title"
-            android:name="org.kustom.api.dashboard.DashboardActivity">
+        <activity android:label="@string/kustom_dashboard_title" android:name="org.kustom.api.dashboard.DashboardActivity">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.MAIN" />
-                <category
-                    android:name="android.intent.category.LAUNCHER" />
-                <action
-                    android:name="android.intent.action.SET_WALLPAPER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:theme="@style/KustomDashboardTheme.Translucent"
-            android:name="org.kustom.api.dashboard.ImagePreviewActivity" />
+        <activity android:name="org.kustom.api.dashboard.ImagePreviewActivity" android:theme="@style/KustomDashboardTheme.Translucent"/>
     </application>
 </manifest>

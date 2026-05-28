@@ -1,72 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    n1:id="@id/activity_kustom_image_preview"
-    n1:background="@android:color/black"
-    n1:layout_width="fill_parent"
-    n1:layout_height="fill_parent"
-    xmlns:n1="http://schemas.android.com/apk/res/android">
-    <ImageView
-        n1:id="@id/image"
-        n1:layout_width="fill_parent"
-        n1:layout_height="fill_parent"
-        n1:scaleType="centerCrop" />
-    <RelativeLayout
-        n1:fitsSystemWindows="true"
-        n1:layout_width="fill_parent"
-        n1:layout_height="fill_parent">
-        <Toolbar
-            n1:id="@id/toolbar"
-            n1:background="@color/kustom_translucent_background"
-            n1:layout_width="fill_parent"
-            n1:layout_height="?android:actionBarSize"
-            n1:layout_alignParentTop="true" />
-        <FrameLayout
-            n1:id="@id/progress"
-            n1:background="@color/kustom_translucent_background"
-            n1:layout_width="fill_parent"
-            n1:layout_height="fill_parent"
-            n1:layout_above="@id/info"
-            n1:layout_below="@id/toolbar">
-            <ProgressBar
-                n1:layout_gravity="center"
-                n1:layout_width="wrap_content"
-                n1:layout_height="wrap_content"
-                style="?android:progressBarStyle" />
+<FrameLayout n1:id="@id/activity_kustom_image_preview" n1:background="@android:color/black" n1:layout_width="match_parent" n1:layout_height="match_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/image" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:scaleType="centerCrop" />
+    <RelativeLayout n1:fitsSystemWindows="true" n1:layout_width="match_parent" n1:layout_height="match_parent">
+        <Toolbar n1:id="@id/toolbar" n1:background="@color/kustom_translucent_background" n1:layout_width="match_parent" n1:layout_height="?android:actionBarSize" n1:layout_alignParentTop="true" />
+        <FrameLayout n1:id="@id/progress" n1:background="@color/kustom_translucent_background" n1:layout_width="match_parent" n1:layout_height="match_parent" n1:layout_above="@id/info" n1:layout_below="@id/toolbar">
+            <ProgressBar n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="?android:progressBarStyle" />
         </FrameLayout>
-        <TextView
-            n1:textAppearance="@android:style/TextAppearance.Medium"
-            n1:id="@id/text"
-            n1:padding="24.0dip"
-            n1:visibility="gone"
-            n1:layout_width="wrap_content"
-            n1:layout_height="wrap_content"
-            n1:text="@string/no_results"
-            n1:layout_centerInParent="true" />
-        <LinearLayout
-            n1:orientation="vertical"
-            n1:id="@id/info"
-            n1:background="@color/kustom_translucent_background"
-            n1:paddingLeft="16.0dip"
-            n1:paddingTop="16.0dip"
-            n1:paddingRight="16.0dip"
-            n1:paddingBottom="32.0dip"
-            n1:layout_width="fill_parent"
-            n1:layout_height="wrap_content"
-            n1:layout_alignParentBottom="true">
-            <TextView
-                n1:textAppearance="?android:textAppearanceLarge"
-                n1:textColor="@color/kustom_translucent_background_text_primary"
-                n1:id="@id/title"
-                n1:layout_width="fill_parent"
-                n1:layout_height="wrap_content"
-                n1:maxLines="1" />
-            <TextView
-                n1:textAppearance="?android:textAppearanceSmall"
-                n1:textColor="@color/kustom_translucent_background_text_secondary"
-                n1:id="@id/author"
-                n1:layout_width="fill_parent"
-                n1:layout_height="wrap_content"
-                n1:maxLines="1" />
+        <TextView n1:textAppearance="@android:style/TextAppearance.Medium" n1:id="@id/text" n1:padding="24.0dp" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/no_results" n1:layout_centerInParent="true" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/info" n1:background="@color/kustom_translucent_background" n1:paddingLeft="16.0dp" n1:paddingTop="16.0dp" n1:paddingRight="16.0dp" n1:paddingBottom="32.0dp" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:layout_alignParentBottom="true">
+            <TextView n1:textAppearance="?android:textAppearanceLarge" n1:textColor="@color/kustom_translucent_background_text_primary" n1:id="@id/title" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" />
+            <TextView n1:textAppearance="?android:textAppearanceSmall" n1:textColor="@color/kustom_translucent_background_text_secondary" n1:id="@id/author" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:maxLines="1" />
         </LinearLayout>
     </RelativeLayout>
 </FrameLayout>

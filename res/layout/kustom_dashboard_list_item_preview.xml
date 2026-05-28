@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    n1:background="?android:colorPrimary"
-    n1:layout_width="fill_parent"
-    n1:layout_height="wrap_content"
-    xmlns:n1="http://schemas.android.com/apk/res/android">
-    <org.kustom.api.dashboard.views.AspectRatioImageView
-        n1:id="@id/background"
-        n1:layout_width="fill_parent"
-        n1:layout_height="wrap_content"
-        n1:scaleType="centerCrop"
-        n1:adjustViewBounds="true"
-        n2:aspectRatio="1.0"
-        n2:aspectRatioEnabled="true"
-        n2:dominantMeasurement="width"
-        xmlns:n2="http://schemas.android.com/apk/res-auto" />
-    <org.kustom.api.dashboard.views.AspectRatioImageView
-        n1:layout_gravity="center"
-        n1:id="@id/preview"
-        n1:background="@android:color/transparent"
-        n1:layout_width="fill_parent"
-        n1:layout_height="wrap_content"
-        n1:scaleType="centerCrop"
-        n1:adjustViewBounds="true"
-        n3:aspectRatio="1.78"
-        n3:aspectRatioEnabled="true"
-        n3:dominantMeasurement="width"
-        xmlns:n3="http://schemas.android.com/apk/res-auto" />
+<FrameLayout n1:background="?android:colorPrimary" n1:layout_width="match_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <org.kustom.api.dashboard.views.AspectRatioImageView n1:id="@id/background" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:scaleType="centerCrop" n1:adjustViewBounds="true" n2:aspectRatio="1.0" n2:aspectRatioEnabled="true" n2:dominantMeasurement="width"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <org.kustom.api.dashboard.views.AspectRatioImageView n1:layout_gravity="center" n1:id="@id/preview" n1:background="@android:color/transparent" n1:layout_width="match_parent" n1:layout_height="wrap_content" n1:scaleType="centerCrop" n1:adjustViewBounds="true" n3:aspectRatio="1.78" n3:aspectRatioEnabled="true" n3:dominantMeasurement="width"
+      xmlns:n3="http://schemas.android.com/apk/res-auto" />
 </FrameLayout>

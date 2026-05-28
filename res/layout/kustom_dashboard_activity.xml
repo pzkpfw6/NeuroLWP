@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    n1:orientation="vertical"
-    n1:id="@id/activity_kustom_dash_board"
-    n1:layout_width="fill_parent"
-    n1:layout_height="fill_parent"
-    xmlns:n1="http://schemas.android.com/apk/res/android">
-    <Toolbar
-        n1:id="@id/toolbar"
-        n1:background="?android:colorPrimary"
-        n1:layout_width="fill_parent"
-        n1:layout_height="?android:actionBarSize"
-        n1:elevation="4.0dip" />
-    <com.astuetz.PagerSlidingTabStrip
-        n1:id="@id/tabs"
-        n1:background="?android:colorPrimary"
-        n1:paddingLeft="4.0dip"
-        n1:paddingRight="4.0dip"
-        n1:layout_width="fill_parent"
-        n1:layout_height="38.0dip"
-        n1:elevation="4.0dip"
-        n2:pstsIndicatorColor="?android:colorAccent"
-        n2:pstsIndicatorHeight="3.0dip"
-        n2:pstsShouldExpand="true"
-        n2:pstsTabTextColor="?android:textColorPrimary"
-        n2:pstsTabTextSize="14.0dip"
-        n2:pstsUnderlineColor="?android:textColorSecondaryInverse"
-        xmlns:n2="http://schemas.android.com/apk/res-auto" />
-    <android.support.v4.view.ViewPager
-        n1:id="@id/pager"
-        n1:layout_width="fill_parent"
-        n1:layout_height="0.0dip"
-        n1:layout_weight="1.0" />
+<LinearLayout n1:orientation="vertical" n1:id="@id/activity_kustom_dash_board" n1:layout_width="match_parent" n1:layout_height="match_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <Toolbar n1:id="@id/toolbar" n1:background="?android:colorPrimary" n1:layout_width="match_parent" n1:layout_height="?android:actionBarSize" n1:elevation="4.0dp" />
+    <com.astuetz.PagerSlidingTabStrip n1:id="@id/tabs" n1:background="?android:colorPrimary" n1:paddingLeft="4.0dp" n1:paddingRight="4.0dp" n1:layout_width="match_parent" n1:layout_height="38.0dp" n1:elevation="4.0dp" n2:pstsIndicatorColor="?android:colorAccent" n2:pstsIndicatorHeight="3.0dp" n2:pstsShouldExpand="true" n2:pstsTabTextColor="?android:textColorPrimary" n2:pstsTabTextSize="14.0dp" n2:pstsUnderlineColor="?android:textColorSecondaryInverse"
+      xmlns:n2="http://schemas.android.com/apk/res-auto" />
+    <android.support.v4.view.ViewPager n1:id="@id/pager" n1:layout_width="match_parent" n1:layout_height="0.0dp" n1:layout_weight="1.0" />
 </LinearLayout>
