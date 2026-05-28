@@ -1,5 +1,5 @@
 # NeuroLWP 
-[<img alt="Get it on F-Droid" height="100" src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png">](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/pzkpfw6/NeuroLWP)
+[<img alt="Get it on F-Droid" height="50" src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png">](https://apps.obtainium.imranr.dev/redirect.html?r=obtainium://add/https://github.com/pzkpfw6/NeuroLWP)
 
 
 An interactive Live wallpaper featuring Neuro-sama and Evil Neuro, built for KLWP (requires KLWP Pro)
