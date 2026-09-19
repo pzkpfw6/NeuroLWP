@@ -29,4 +29,4 @@ An interactive Live wallpaper featuring Neuro-sama and Evil Neuro, built for KLW
 
 [Telegram Support group](https://t.me/+yZrJp8ryDNxjODhi)
 
-Built with KAPK 
+Built with KAPK, this is why the repo is in smali; it's a decompiled app initially built by Kustom Konsole
